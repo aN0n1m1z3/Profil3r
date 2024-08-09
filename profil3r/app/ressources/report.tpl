@@ -35,7 +35,7 @@
                                 {% for account in accounts["accounts"] %}
                                 <tr>
                                     <td><b>{{ service }}</b></td>
-                                    <td> <span class="badge badge-{{ accounts["type"] }}">{{ accounts["type"] }}</span> </td>
+                                    <td> <span class="badge badge-{{ accounts["type"] }}">{{ accounts["type"] }}</span> </td>
                                     <td>    
                                         {% if (accounts["type"] == "email") or (service == "skype")%}
                                         <i>{{ account['value'] }}</i>
